@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53062ED521CFF184007BEAF4 /* sendBilcoinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53062ED421CFF184007BEAF4 /* sendBilcoinVC.swift */; };
+		53062ED721CFF4C9007BEAF4 /* bilcoinTransactionResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53062ED621CFF4C9007BEAF4 /* bilcoinTransactionResultVC.swift */; };
+		53062ED921CFF4F3007BEAF4 /* qrTransactionResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53062ED821CFF4F3007BEAF4 /* qrTransactionResultVC.swift */; };
+		5326777521CED0B600D0ADDD /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326777421CED0B600D0ADDD /* SignUpVC.swift */; };
+		5326777721CED37900D0ADDD /* signingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326777621CED37900D0ADDD /* signingVC.swift */; };
+		5326777921CED58C00D0ADDD /* dashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326777821CED58C00D0ADDD /* dashboardVC.swift */; };
+		5363CF2021EDD5F800E9E086 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5363CF1F21EDD5F800E9E086 /* SwiftyJSON.swift */; };
+		5363CF2221EDD61500E9E086 /* bilpayMoney.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5363CF2121EDD61500E9E086 /* bilpayMoney.mp3 */; };
+		53F4F68A21ECB74600EDBE4E /* BilPayDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 53F4F68821ECB74600EDBE4E /* BilPayDataModel.xcdatamodeld */; };
+		53F4F68D21ECB80200EDBE4E /* UserRecords+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F4F68B21ECB80200EDBE4E /* UserRecords+CoreDataClass.swift */; };
+		53F4F68E21ECB80200EDBE4E /* UserRecords+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F4F68C21ECB80200EDBE4E /* UserRecords+CoreDataProperties.swift */; };
 		53F58D6D21CE64BE004CF394 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F58D6C21CE64BE004CF394 /* AppDelegate.swift */; };
 		53F58D6F21CE64BE004CF394 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F58D6E21CE64BE004CF394 /* ViewController.swift */; };
 		53F58D7221CE64BE004CF394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F58D7021CE64BE004CF394 /* Main.storyboard */; };
 		53F58D7421CE64BF004CF394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53F58D7321CE64BF004CF394 /* Assets.xcassets */; };
 		53F58D7721CE64BF004CF394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F58D7521CE64BF004CF394 /* LaunchScreen.storyboard */; };
+		53F58D7F21CE7E15004CF394 /* QrCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F58D7E21CE7E15004CF394 /* QrCodeVC.swift */; };
+		53F58D8121CE7F34004CF394 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F58D8021CE7F34004CF394 /* QRScannerController.swift */; };
+		53F58D8921CE9930004CF394 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F58D8821CE9930004CF394 /* DataSource.swift */; };
+		53F58D8B21CEA385004CF394 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F58D8A21CEA385004CF394 /* SignInVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53062ED421CFF184007BEAF4 /* sendBilcoinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendBilcoinVC.swift; sourceTree = "<group>"; };
+		53062ED621CFF4C9007BEAF4 /* bilcoinTransactionResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bilcoinTransactionResultVC.swift; sourceTree = "<group>"; };
+		53062ED821CFF4F3007BEAF4 /* qrTransactionResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrTransactionResultVC.swift; sourceTree = "<group>"; };
+		5326777421CED0B600D0ADDD /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		5326777621CED37900D0ADDD /* signingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signingVC.swift; sourceTree = "<group>"; };
+		5326777821CED58C00D0ADDD /* dashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashboardVC.swift; sourceTree = "<group>"; };
+		5363CF1F21EDD5F800E9E086 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		5363CF2121EDD61500E9E086 /* bilpayMoney.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bilpayMoney.mp3; sourceTree = "<group>"; };
+		53F4F68921ECB74600EDBE4E /* BilPayDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BilPayDataModel.xcdatamodel; sourceTree = "<group>"; };
+		53F4F68B21ECB80200EDBE4E /* UserRecords+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserRecords+CoreDataClass.swift"; sourceTree = "<group>"; };
+		53F4F68C21ECB80200EDBE4E /* UserRecords+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserRecords+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		53F58D6921CE64BE004CF394 /* BilPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BilPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F58D6C21CE64BE004CF394 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53F58D6E21CE64BE004CF394 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		53F58D7121CE64BE004CF394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53F58D7321CE64BF004CF394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53F58D7621CE64BF004CF394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		53F58D7821CE64BF004CF394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F58D7E21CE7E15004CF394 /* QrCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeVC.swift; sourceTree = "<group>"; };
+		53F58D8021CE7F34004CF394 /* QRScannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
+		53F58D8421CE82BE004CF394 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = /Users/canberkdemirci/Desktop/BilPay/BilPay/Info.plist; sourceTree = "<absolute>"; };
+		53F58D8821CE9930004CF394 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		53F58D8A21CEA385004CF394 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +84,27 @@
 		53F58D6B21CE64BE004CF394 /* BilPay */ = {
 			isa = PBXGroup;
 			children = (
+				5363CF2121EDD61500E9E086 /* bilpayMoney.mp3 */,
+				5363CF1F21EDD5F800E9E086 /* SwiftyJSON.swift */,
+				53F4F68B21ECB80200EDBE4E /* UserRecords+CoreDataClass.swift */,
+				53F4F68C21ECB80200EDBE4E /* UserRecords+CoreDataProperties.swift */,
 				53F58D6C21CE64BE004CF394 /* AppDelegate.swift */,
 				53F58D6E21CE64BE004CF394 /* ViewController.swift */,
 				53F58D7021CE64BE004CF394 /* Main.storyboard */,
+				53F4F68821ECB74600EDBE4E /* BilPayDataModel.xcdatamodeld */,
+				53062ED821CFF4F3007BEAF4 /* qrTransactionResultVC.swift */,
+				53062ED621CFF4C9007BEAF4 /* bilcoinTransactionResultVC.swift */,
+				53062ED421CFF184007BEAF4 /* sendBilcoinVC.swift */,
+				5326777821CED58C00D0ADDD /* dashboardVC.swift */,
+				5326777621CED37900D0ADDD /* signingVC.swift */,
+				5326777421CED0B600D0ADDD /* SignUpVC.swift */,
+				53F58D8A21CEA385004CF394 /* SignInVC.swift */,
+				53F58D8821CE9930004CF394 /* DataSource.swift */,
+				53F58D8021CE7F34004CF394 /* QRScannerController.swift */,
+				53F58D7E21CE7E15004CF394 /* QrCodeVC.swift */,
 				53F58D7321CE64BF004CF394 /* Assets.xcassets */,
 				53F58D7521CE64BF004CF394 /* LaunchScreen.storyboard */,
-				53F58D7821CE64BF004CF394 /* Info.plist */,
+				53F58D8421CE82BE004CF394 /* Info.plist */,
 			);
 			path = BilPay;
 			sourceTree = "<group>";
@@ -122,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5363CF2221EDD61500E9E086 /* bilpayMoney.mp3 in Resources */,
 				53F58D7721CE64BF004CF394 /* LaunchScreen.storyboard in Resources */,
 				53F58D7421CE64BF004CF394 /* Assets.xcassets in Resources */,
 				53F58D7221CE64BE004CF394 /* Main.storyboard in Resources */,
@@ -135,8 +181,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53062ED921CFF4F3007BEAF4 /* qrTransactionResultVC.swift in Sources */,
+				5326777721CED37900D0ADDD /* signingVC.swift in Sources */,
+				53062ED521CFF184007BEAF4 /* sendBilcoinVC.swift in Sources */,
+				53F4F68D21ECB80200EDBE4E /* UserRecords+CoreDataClass.swift in Sources */,
+				53062ED721CFF4C9007BEAF4 /* bilcoinTransactionResultVC.swift in Sources */,
+				5326777921CED58C00D0ADDD /* dashboardVC.swift in Sources */,
+				5326777521CED0B600D0ADDD /* SignUpVC.swift in Sources */,
 				53F58D6F21CE64BE004CF394 /* ViewController.swift in Sources */,
+				53F58D8121CE7F34004CF394 /* QRScannerController.swift in Sources */,
+				53F58D8B21CEA385004CF394 /* SignInVC.swift in Sources */,
 				53F58D6D21CE64BE004CF394 /* AppDelegate.swift in Sources */,
+				53F4F68E21ECB80200EDBE4E /* UserRecords+CoreDataProperties.swift in Sources */,
+				53F58D8921CE9930004CF394 /* DataSource.swift in Sources */,
+				5363CF2021EDD5F800E9E086 /* SwiftyJSON.swift in Sources */,
+				53F4F68A21ECB74600EDBE4E /* BilPayDataModel.xcdatamodeld in Sources */,
+				53F58D7F21CE7E15004CF394 /* QrCodeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,14 +342,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78WG3283RL;
 				INFOPLIST_FILE = BilPay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = CanberkDemirci.BilPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,14 +363,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78WG3283RL;
 				INFOPLIST_FILE = BilPay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = CanberkDemirci.BilPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -334,6 +402,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		53F4F68821ECB74600EDBE4E /* BilPayDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				53F4F68921ECB74600EDBE4E /* BilPayDataModel.xcdatamodel */,
+			);
+			currentVersion = 53F4F68921ECB74600EDBE4E /* BilPayDataModel.xcdatamodel */;
+			path = BilPayDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 53F58D6121CE64BE004CF394 /* Project object */;
 }
